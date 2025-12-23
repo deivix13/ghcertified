@@ -43,6 +43,20 @@ If you've decided to not use [GitHub Codespaces](https://codespaces.new/FidelusA
   hugo server
   ```
 
+
+### Option 3: Docker
+
+1. Run docker compose
+  ```bash
+    docker compose up -d 
+  ```
+
+2.  Navigate 
+  ```bash
+  Go to: http://localhost:1313
+  ```
+
+
 ## Content Changes
 All of the site content in this repository is stored in [content/](https://github.com/FidelusAleksander/ghcertified/blob/master/content) directory and is written in markdown.
 
