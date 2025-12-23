@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  hugo:
+    build: .
+    ports:
+      - "1313:1313"  # Sustituye al -p
+    volumes:
+      - .:/src       # Sustituye al -v
